@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Product Nike2">
+	<meta name="author" content="Nastia">
+	<title>Nike2</title>
+
+	<link rel="icon" href="images/favicon.png">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/styles.css">
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+
+<div class="container">
+	<header class="header">
+	<a href="index.html" class="header__logo">
+		<img src="images/logo.png" alt="Logo" class="header___logo-img">
+	</a>
+	</header>
+<main class="content">
+<div class="product">
+	<div class="product__image"><img src="images/Nike-Max.png" alt="nike">
+	</div>
+	<ul class="product__variants">
+		<li class="product__item product__item--is-active">&bull;</li>		
+		<li class="product__item-white">&bull;</li>	
+		<li class="product__item-red">&bull;</li>	
+		<li class="product__item-blue">&bull;</li>		
+	</ul>
+</div>
+<div class="desc">
+	<h1 class="desc__title">Nike SB Stefan<br>Janoski Max</h1>
+	<p class="desc__parag">Unisex Skateboarding Shoe</p>
+	<ul class="desc__stars">
+		<li class="desc__stars--val">&#9733;</li>
+		<li class="desc__stars--val">&#9733;</li>
+		<li class="desc__stars--val">&#9733;</li>
+		<li class="desc__stars--val1">&#9733;</li>
+		<li class="desc__stars--val1">&#9733;</li>
+	</ul>
+	<div class="desc__selection">
+		<select class="desc__selection-size">
+			<option value="size" class="desc__opy-size">Size</option>
+		</select>
+		<select class="desc__selection-qity"><option value="qty" class="desc__opt-qity">Qity</option></select>
+	</div>
+	<button type="button" class="desc__btn">Add to card</button>
+</main>
+</div>
+<!-- LiveReload Script -->
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>
